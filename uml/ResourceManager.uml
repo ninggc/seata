@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.seata.core.model.ResourceManager</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">io.seata.core.model.ResourceManagerInbound</node>
+    <node x="264.0" y="0.0">io.seata.core.model.ResourceManagerOutbound</node>
+    <node x="140.0" y="160.0">io.seata.rm.DefaultResourceManager</node>
+    <node x="166.0" y="80.0">io.seata.core.model.ResourceManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.seata.core.model.ResourceManager" target="io.seata.core.model.ResourceManagerOutbound" relationship="INTERFACE_GENERALIZATION">
+      <point x="45.75" y="-15.0" />
+      <point x="303.25" y="55.0" />
+      <point x="393.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.seata.core.model.ResourceManager" target="io.seata.core.model.ResourceManagerInbound" relationship="INTERFACE_GENERALIZATION">
+      <point x="-45.75" y="-15.0" />
+      <point x="211.75" y="55.0" />
+      <point x="122.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.seata.rm.DefaultResourceManager" target="io.seata.core.model.ResourceManager" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="261.0" y="55.0" />
+  <SelectedNodes>
+    <node>io.seata.rm.DefaultResourceManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
