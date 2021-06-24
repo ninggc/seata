@@ -49,6 +49,7 @@
         <module>compressor</module>
         <module>saga</module>
         <module>sqlparser</module>
+        <module>seata-mongo-support</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -89,7 +90,8 @@
 
     <properties>
         <!-- seata version -->
-        <revision>1.4.0</revision>
+        <revision>1.4.0-xinheyun</revision>
+        <revision-xinheyun>1.4.0-xinheyun</revision-xinheyun>
 
         <!-- Compiler settings properties -->
         <maven.compiler.source>1.8</maven.compiler.source>
