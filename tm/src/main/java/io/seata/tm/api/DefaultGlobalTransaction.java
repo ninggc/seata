@@ -15,9 +15,6 @@
  */
 package io.seata.tm.api;
 
-import static io.seata.common.DefaultValues.DEFAULT_TM_COMMIT_RETRY_COUNT;
-import static io.seata.common.DefaultValues.DEFAULT_TM_ROLLBACK_RETRY_COUNT;
-
 import io.seata.config.ConfigurationFactory;
 import io.seata.core.constants.ConfigurationKeys;
 import io.seata.core.context.RootContext;
@@ -29,6 +26,9 @@ import io.seata.tm.api.transaction.SuspendedResourcesHolder;
 import io.seata.tm.api.transaction.TransactionDepthManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import static io.seata.common.DefaultValues.DEFAULT_TM_COMMIT_RETRY_COUNT;
+import static io.seata.common.DefaultValues.DEFAULT_TM_ROLLBACK_RETRY_COUNT;
 
 /**
  * The type Default global transaction.
